@@ -336,81 +336,65 @@ a {
 
 /* CONTACT CARD */
 
-.contact-card {
-    position: absolute;
+/* LET'S CONNECT */
 
-    left: -25px;
-    bottom: 35px;
-
-    width: 300px;
-
-    padding: 25px;
-
-    background: rgba(255, 255, 252, 0.94);
-
-    box-shadow: 0 20px 35px rgba(30, 38, 35, 0.12);
-
-    transform: rotate(-2deg);
-
-    z-index: 5;
+.profile-connect {
+    margin-top: 22px;
+    text-align: center;
 }
 
-.contact-label {
-    margin-bottom: 17px;
+.connect-label {
+    margin-bottom: 12px;
 
     color: #53615c;
 
     font-size: 10px;
     font-weight: 600;
 
-    letter-spacing: 2px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
 }
 
-.contact-item {
+.connect-icons {
     display: flex;
+    justify-content: center;
     align-items: center;
 
-    gap: 12px;
-
-    padding: 11px 0;
-
-    border-top: 1px solid #e2e3dc;
-
-    font-size: 13px;
-
-    color: #26332f;
-
-    transition: transform 0.2s ease;
+    gap: 18px;
 }
 
-.contact-item:hover {
-    transform: translateX(4px);
-}
-
-.contact-icon {
-    width: 25px;
-    height: 25px;
+.connect-icon {
+    width: 30px;
+    height: 30px;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    flex-shrink: 0;
+    text-decoration: none;
+
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
 }
 
-.contact-icon svg {
-    width: 17px;
-    height: 17px;
+.connect-icon svg {
+    width: 19px;
+    height: 19px;
 
-    fill: none;
-    stroke: #294d46;
-    stroke-width: 1.5;
-}
-
-.contact-item:nth-child(3) svg {
     fill: #294d46;
-    stroke: none;
+
+    transition: fill 0.2s ease;
 }
+
+.connect-icon:hover {
+    transform: translateY(-3px);
+}
+
+.connect-icon:hover svg {
+    fill: #53615c;
+}
+
 
 
 /* =========================================
