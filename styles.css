@@ -11,7 +11,7 @@
   --green-dark:#23483f;
   --gold:#b99d75;
   --white:#fff;
-  --max:1120px;
+  --max:950px;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
