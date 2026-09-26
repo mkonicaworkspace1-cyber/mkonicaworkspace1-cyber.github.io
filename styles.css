@@ -78,7 +78,15 @@ p{margin:0;color:#5d6863}
   background:var(--paper);min-height:calc(100vh - 72px);
   display:grid;place-items:center;
 }
-.hero-inner{width:min(calc(100% - 32px),var(--max));display:grid;grid-template-columns:1.15fr .85fr;gap:45px;align-items:center}
+.hero-inner{  width:100%;
+  max-width:1200px;
+  margin:auto;
+  padding:0 32px;
+  box-sizing:border-box;
+  display:grid;
+  grid-template-columns:1.15fr .85fr;
+  gap:45px;
+  align-items:center;}
 .hero-copy{padding:55px 0}
 .hero-copy h1{margin:16px 0 22px}
 .hero-copy .lead{font-size:14px;max-width:560px}
