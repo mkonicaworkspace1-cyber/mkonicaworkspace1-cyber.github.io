@@ -145,7 +145,11 @@ p{margin:0;color:#5d6863}
 @media(max-width:800px){
   .site-header,.container,.hero-inner,.footer-inner{width:min(calc(100% - 32px),var(--max))}
   .nav{gap:16px}
-  .hero-inner{grid-template-columns:1fr;gap:20px}
+  .hero-inner{  width:100%;
+  max-width:1200px;
+  margin:auto;
+  padding:0 32px;
+  box-sizing:border-box;}
   .hero-copy{padding:50px 0 15px}
   .profile-panel{padding-bottom:70px}
   .grid-3,.grid-2,.stat-layout{grid-template-columns:1fr}
