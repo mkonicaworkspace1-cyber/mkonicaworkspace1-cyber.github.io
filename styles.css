@@ -22,7 +22,7 @@ body{
 a{color:inherit;text-decoration:none}
 img{max-width:100%;display:block}
 .site-header{
-  width:min(calc(100% - 56px),var(--max));margin:auto;
+  width:min(calc(100% - 32px),var(--max));margin:auto;
   min-height:72px;display:flex;align-items:center;justify-content:space-between;
   border-bottom:1px solid var(--line);
 }
@@ -31,7 +31,7 @@ img{max-width:100%;display:block}
 .nav a{padding:27px 0;position:relative;color:#56615d}
 .nav a:hover,.nav a.active{color:var(--ink)}
 .nav a.active:after{content:"";position:absolute;left:0;right:0;bottom:19px;height:1px;background:var(--ink)}
-.container{width:min(calc(100% - 56px),var(--max));margin:auto}
+.container{width:min(calc(100% - 32px),var(--max));margin:auto}
 .eyebrow{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
 h1,h2,h3{font-family:"Playfair Display",Georgia,serif;font-weight:500;line-height:1.08;margin:0}
 h1{font-size:clamp(42px,6vw,74px)}
@@ -78,7 +78,7 @@ p{margin:0;color:#5d6863}
   background:var(--paper);min-height:calc(100vh - 72px);
   display:grid;place-items:center;
 }
-.hero-inner{width:min(calc(100% - 56px),var(--max));display:grid;grid-template-columns:1.15fr .85fr;gap:45px;align-items:center}
+.hero-inner{width:min(calc(100% - 32px),var(--max));display:grid;grid-template-columns:1.15fr .85fr;gap:45px;align-items:center}
 .hero-copy{padding:55px 0}
 .hero-copy h1{margin:16px 0 22px}
 .hero-copy .lead{font-size:14px;max-width:560px}
@@ -126,7 +126,7 @@ p{margin:0;color:#5d6863}
 .report-card .body{padding-top:17px}
 .report-card h3{font-family:"DM Sans",Arial,sans-serif;font-size:16px;font-weight:600}
 .footer{border-top:1px solid var(--line);padding:30px 0;margin-top:70px}
-.footer-inner{width:min(calc(100% - 56px),var(--max));margin:auto;display:flex;justify-content:space-between;font-size:11px;color:var(--muted)}
+.footer-inner{width:min(calc(100% - 32px),var(--max));margin:auto;display:flex;justify-content:space-between;font-size:11px;color:var(--muted)}
 .back{font-size:11px;color:var(--muted);display:inline-block;margin-bottom:22px}
 .search{
   width:100%;border:1px solid var(--line);padding:13px 16px;font:inherit;font-size:12px;
